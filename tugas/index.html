@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Adminpage</title>
+    <link href="assets/css/metro.css" rel="stylesheet">
+    <link href="assets/css/metro-icons.css" rel="stylesheet">
+    <link href="assets/css/metro-responsive.css" rel="stylesheet">
+    <link href="assets/css/style1.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-bar">
+        <a class="app-bar-element" href="#">Home Product Macoa</a>
+        <span class="app-bar-divider"></span>
+    </div>
+
+    <div class="container">
+            <div id="menu">
+                <a href="product.html" target="main"><div id="btn1"> <p>Our Product</p> </div> </a>
+                <a href="macoa.html" target="main"><div id="btn2"> <p>FeedBack</p> </div> </a>
+            </div>
+
+            <div id="footer" class="app-bar-divider">
+            <div id="footer1">
+                <p id="footer2">Lending Page desaign &copy; 2017 All rights reserved. </p>
+            </div>
+      </div>
+    </div>
+        <script src="assets/js/jquery-2.1.3.min.js"></script>
+        <script src="assets/js/jquery.dataTables.min.js"></script>
+        <script src="assets/js/metro.js"></script>
+        <script type="text/javascript" src="assets/js/weenLite.min.js"></script>
+        <script type="text/javascript" src="assets/js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+              TweenLite.to($("#btn1"),2,{css:{left:0},delay:2, ease:Power2.easeOut});
+               TweenLite.to($("#btn2"),2,{css:{left:20},delay:2.5, ease:Power2.easeOut});
+              });
+        </script>   
+</body>
+</html>
+
+
+

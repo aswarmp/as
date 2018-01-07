@@ -1,0 +1,232 @@
+body{
+	margin:0;
+	background-color:#333;
+	overflow:auto;
+}
+#btn1{
+	background:#06F;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:300px;
+	padding-left:10px;
+	text-align:left;
+	
+	
+}
+
+#btn2{
+	background:#C30;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:300px;
+	padding-left:10px;
+	text-align:left;
+}
+
+#btn3{
+	background:#F60;
+	border-color:#F60;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:300px;
+	padding-left:10px;
+	text-align:left;
+}
+
+#btn4{
+	background:#C3C;
+	border-color:#F60;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	margin-top:30px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:300px;
+	padding-left:10px;
+	text-align:left;
+}
+#btn5{
+	background:#F36;
+	border-color:#F60;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	margin-top:30px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:300px;
+	padding-left:10px;
+	text-align:left;
+}
+
+#btn6{
+	background:#6C0;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	margin-top:30px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:300px;
+	padding-left:10px;
+	text-align:left;
+}
+
+#content{
+	background:#369;
+	height:480px;
+	width:750px;
+	position:relative;
+	top:500px;
+	z-index:0;
+}
+
+#backbutton{
+	position:relative;
+	left:760px;
+	cursor:pointer;
+}
+
+#caption{
+	position:relative;
+	top:-60px;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#pagecaption{
+	position:relative;
+	top:-60px;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#title{
+	width:100%; 
+	height:80px; 
+	overflow:hidden; 
+	margin: 0 auto; 
+	background-color:#333;
+
+	}
+#caption{
+	height:44px; 
+	margin-top:20px;
+	float:left; 
+	margin-left:12px; 
+	position:absolute;
+}
+#backbutton{
+	height:44px;
+	width:44px; 
+	margin-top:15px;
+	float:left; 
+	position:absolute;
+}
+#backbutton .img{
+	width:44px; 
+	height:44px; 
+}
+#pagecaption{
+	height:44px; 
+	margin-top:20px;
+	float:left; 
+	margin-left:12px; 
+	position:absolute;
+}
+#menu{
+	width:750px; 
+	height:450px; 
+	overflow:hidden; 
+	margin: 0 auto; 
+	position:relative; 
+	margin-top:35px;
+}
+#btn1{
+	float:left;
+}
+#btn2{
+	float:left;
+}
+#btn3{
+	float:left;
+}
+
+#content{
+	position:absolute;
+	height:450px; 
+	width:750px;
+}
+#footer{
+	width:100%; 
+	height:80px; 
+	overflow:hidden; 
+	margin: 0 auto; 
+	background-color:#369; 
+	margin-top:20px;
+}
+#footer1{
+	width:750px; 
+	height:80px; 
+	margin: 0 auto;
+}
+#footer2{
+	text-align:center; 
+	color:#FFF; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size:x-small;
+}
+#footer3{
+	text-align:center; 
+	color:#CCC; 
+	font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size:x-small;
+}
+#title1{
+	width:750px; 
+	height:80px; 
+	margin: 0 auto; 
+	overflow:hidden; 
+	position:relative;
+}
